@@ -15,7 +15,7 @@ function Introduction() {
             as a 2nd Year IT student and I am very passionate about coding and
             learning about new and revolutionary technology. And i enjoy self-learning much more than class base learning. I&apos;m currently
             working at <a href="https://dreamslab.dev/">DreamsLab</a> as an
-            Intern Web Developer. There i&apos;m working with ReactJs, NextJs, TailwindCSS, and others new technology.
+            Intern Web Developer. There I work with ReactJs, NextJs, TailwindCSS, and others new technology.
           </p>
         </div>
       </div>
