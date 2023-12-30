@@ -11,6 +11,7 @@ export default function Profile() {
         height={0}
         className="w-full h-full rounded-md"
         sizes="100%"
+        quality={100}
       />
     </div>
   );
