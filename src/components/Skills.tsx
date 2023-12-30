@@ -1,36 +1,47 @@
 import { londrina } from "@/app/fonts";
 import React from "react";
+import Link from "next/link";
 
 const skills = [
   {
     name: "NextJs",
+    link: "https://nextjs.org/",
   },
   {
     name: "ReactJs",
+    link: "https://reactjs.org/",
   },
   {
     name: "Typescript",
+    link: "https://www.typescriptlang.org/",
   },
   {
     name: "javascript",
+    link: "https://www.javascript.com/",
   },
   {
     name: "Tailwind",
+    link: "https://tailwindcss.com/",
   },
   {
     name: "SCSS",
+    link: "https://sass-lang.com/",
   },
   {
     name: "NodeJs",
+    link: "https://nodejs.org/en/",
   },
   {
     name: "PHP",
+    link: "https://www.php.net/",
   },
   {
     name: "Java",
+    link: "https://www.java.com/en/",
   },
   {
     name: "C++",
+    link: "https://www.cplusplus.com/",
   },
 ];
 
@@ -43,9 +54,11 @@ function Skills() {
       <div className="flex gap-4 px-6">
         {skills.map((skills, index) => (
           <div key={index} className="h-8">
-            <h2 className="text-sm border-black border-2 px-2 bg-white shadow-[2px_2px_0px_rgba(0,0,0,1)] rounded-full w-auto  ">
-              {skills.name}
-            </h2>
+            <button className="text-sm border-black border-2 px-2 bg-white shadow-[2px_2px_0px_rgba(0,0,0,1)] rounded-full w-auto">
+              <Link href={skills.link} target="_blank">
+                {skills.name}
+              </Link>
+            </button>
           </div>
         ))}
       </div>
