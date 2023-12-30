@@ -16,6 +16,13 @@
   }
 }
 
+@layer components {
+  .max-container {
+    max-width: auto;
+    padding: 34px;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
