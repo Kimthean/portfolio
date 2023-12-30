@@ -17,7 +17,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={londrinaSolid.className}>
         <Navbar />
-        <div className="bg-pink-500">{children}</div>
+        <div
+          className="bg-cover bg-center w-full h-full"
+          style={{ backgroundImage: `url('assets/background.jpg')` }}
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
