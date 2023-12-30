@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { londrina, londrinaSolid } from "./fonts";
 import Navbar from "@/components/Navbar";
+import styles from "./RootLayout.module.css";
 
 export const metadata: Metadata = {
   title: "Thean's Portfolio",
   description: "My personal portfolio website",
-  
 };
 
 export default function RootLayout({
@@ -16,12 +16,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+
       <body className={londrinaSolid.className}>
         <Navbar />
         <div
-          className="bg-cover bg-center overflow-hidden"
+          className={`${styles.bgImage}`}
           style={{
-            height: "90vh",
             backgroundImage: `url('assets/background.jpg')`,
           }}
         >

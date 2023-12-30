@@ -1,0 +1,17 @@
+.bgImage {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .bgImage {
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .bgImage {
+    overflow: hidden;
+  }
+}

@@ -6,12 +6,13 @@ import Introduction from "@/components/Introduction";
 
 export default function Home() {
   return (
-    <main className="h-screen  max-container">
-      <div className="flex justify-between">
+    <main className="h-screen max-container">
+      <div className="lg:flex md:flex justify-between pb-4">
         <IntroCard />
+
         <Profile />
       </div>
-      <div className="flex gap-8">
+      <div className="lg:flex gap-8">
         <Skills />
 
         <Introduction />

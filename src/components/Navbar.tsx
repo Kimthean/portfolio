@@ -6,15 +6,26 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div className={londrinaSolid.className}>
-      <nav className="max-container bg-white h-24 relative flex items-center justify-between">
-        <div className="text-[50px]">TheanWeb</div>
+      <nav className="max-container bg-white h-20 lg:h-24 relative flex items-center justify-between">
+        <div className="text-4xl lg:text-6xl">TheanCodes</div>
         <div className="flex">
-          <div className="ml-4 text-2xl">Home</div>
           <div className="pl-4">
             <Link href="https://github.com/Thean-arch" target="_blank">
               <Image
                 src="/assets/github.png"
-                alt="ksad"
+                alt="github"
+                width={0}
+                height={0}
+                sizes="100%"
+                className="object-cover h-8 w-8"
+              />
+            </Link>
+          </div>
+          <div className="pl-4">
+            <Link href="https://t.me/kea_kimthean" target="_blank">
+              <Image
+                src="/assets/telegram.png"
+                alt="telegram"
                 width={0}
                 height={0}
                 sizes="100%"
@@ -29,11 +40,11 @@ function Navbar() {
             >
               <Image
                 src="/assets/linkedin.png"
-                alt="ksad"
+                alt="linkedin"
                 width={0}
                 height={0}
                 sizes="100%"
-                className="object-cover h-9 w-9"
+                className="object-cover h-9 w-9 pb-1"
               />
             </Link>
           </div>
