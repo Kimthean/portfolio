@@ -16,8 +16,12 @@ const skills = [
     link: "https://www.typescriptlang.org/",
   },
   {
-    name: "javascript",
+    name: "Javascript",
     link: "https://www.javascript.com/",
+  },
+  {
+    name: "Prisma",
+    link: "https://www.prisma.io/",
   },
   {
     name: "Tailwind",
@@ -28,7 +32,11 @@ const skills = [
     link: "https://sass-lang.com/",
   },
   {
-    name: "NodeJs",
+    name: "Firebase (Cloud Function,...)",
+    link: "https://firebase.google.com/",
+  },
+  {
+    name: "ExpressJS",
     link: "https://nodejs.org/en/",
   },
   {
