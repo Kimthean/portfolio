@@ -73,13 +73,12 @@ const skills = [
 
 function Skills() {
   return (
-    <div className="w-full md:w-3/4 lg:w-2/4 lg:h-72 pb-6 border-black border-2 rounded-md shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-purple-300">
+    <div className="w-full md:w-3/4 lg:w-2/4 lg:h-72 pb-6 border-black border-2 rounded-md shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-[#ffed4f]">
       <div className={londrina.className}>
         <h1 className="text-4xl lg:text-6xl md:text-4xl p-6">
           What Keep Me Busy?
         </h1>
       </div>
-
       <div className="flex flex-wrap gap-4 px-6">
         {skills.map((skills, index) => (
           <div key={index} className="h-10">
