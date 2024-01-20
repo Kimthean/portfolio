@@ -10,7 +10,7 @@ function Navbar() {
         <div className="text-4xl lg:text-6xl">TheanCodes</div>
         <div className="flex">
           <div className="pl-4">
-            <Link href="https://github.com/Thean-arch" target="_blank">
+            <Link href="https://github.com/Kimthean" target="_blank">
               <Image
                 src="/assets/github.png"
                 alt="github"
