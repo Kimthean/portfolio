@@ -50,6 +50,11 @@ const skills = [
     logo: "https://cdn.worldvectorlogo.com/logos/nodejs-1.svg",
   },
   {
+    name: "NestJS",
+    link: "https://nestjs.com/",
+    logo: "https://cdn.worldvectorlogo.com/logos/nestjs.svg",
+  },
+  {
     name: "PHP",
     link: "https://www.php.net/",
     logo: "https://cdn.worldvectorlogo.com/logos/php-1.svg",
