@@ -9,15 +9,14 @@ function Introduction() {
           <h1 className="text-4xl lg:text-6xl md:text-6xl p-6">About Me</h1>
         </div>
         <div className="px-6">
-          <p className="md:text-xl lg:text-xl text-lg">
-            My name is Thean, I&apos;m a 20 years old developer from Cambodia. I
-            study at <a href="https://www.uc.edu.kh/">University of Cambodia</a>{" "}
-            as a 2nd Year IT student and I am very passionate about coding and
-            learning about new and revolutionary technology. And i enjoy
-            self-learning much more than class base learning. I&apos;m currently
-            working at <a href="https://dreamslab.dev/">DreamsLab</a> as an
-            Intern Web Developer. There I work with ReactJs, NextJs,
-            TailwindCSS, and other new technology.
+          <p className="md:text-xl lg:text-2xl text-lg">
+            My name is Thean, and I&apos;m a 20-year-old developer from Cambodia
+            with a relentless passion for coding and emerging technologies.
+            Currently a 2nd-year IT student at the University of Cambodia,
+            I&apos;m particularly energized by self-learning and exploring new
+            tools. My hands-on experience includes ReactJS, NextJS, NestJS, and
+            I&apos;m always eager to delve into the latest web development
+            advancements.
           </p>
         </div>
       </div>

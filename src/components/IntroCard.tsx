@@ -9,10 +9,7 @@ export default function introCard() {
       <div className="px-6 py-5 text-left h-full ">
         <div className={londrina.className}>
           <h1 className="text-7xl md:text-6xl max-sm:text-5xl mb-4">
-            Developer @
-            <Link href="https://dreamslab.dev/" target="_blank">
-              DreamsLab
-            </Link>
+            Fullstack Developer
           </h1>
         </div>
         <p className="text-xl max-sm:text-base max-md:text-base md:flex lg:pt-4">

@@ -4,7 +4,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="flex">
+      <div className="flex mt-28">
         Inspired by Neo Brutalism theme for
         <Link
           href="https://brutal.elian.codes/

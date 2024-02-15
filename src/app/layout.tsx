@@ -34,10 +34,11 @@ export default function RootLayout({
       <body className={londrinaSolid.className}>
         <Navbar />
         <div
-          className={`${styles.bgImage} bg-pink-400`}
-          // style={{
-          //   backgroundImage: `url('assets/background.jpg')`,
-          // }}
+          className={`${styles.bgImage} `}
+          style={{
+            backgroundImage: `url('assets/background.jpg')`,
+            height: "95vh",
+          }}
         >
           {children}
         </div>
